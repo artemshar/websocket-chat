@@ -2335,7 +2335,7 @@ faye-websocket@~0.11.0:
   dependencies:
     websocket-driver ">=0.5.1"
 
-fbjs@^0.8.1, fbjs@^0.8.16, fbjs@^0.8.6:
+fbjs@^0.8.1, fbjs@^0.8.16:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
@@ -4445,13 +4445,6 @@ react-router@^4.3.1:
     path-to-regexp "^1.7.0"
     prop-types "^15.6.1"
     warning "^4.0.1"
-
-react-tap-event-plugin@^3.0.2:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/react-tap-event-plugin/-/react-tap-event-plugin-3.0.3.tgz#bc5fd0ee3fd3ab5224c1c2ff6f0750204ae89802"
-  integrity sha1-vF/Q7j/Tq1IkwcL/bwdQIEromAI=
-  dependencies:
-    fbjs "^0.8.6"
 
 react-transition-group@^1.2.1:
   version "1.2.1"
