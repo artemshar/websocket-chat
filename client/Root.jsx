@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import MainLayout from './MainLayout';
@@ -10,7 +9,6 @@ import UserSelection from './UserSelection';
 import Chatroom from './Chatroom';
 import socket from './socket';
 
-injectTapEventPlugin()
 
 export default class Root extends React.Component {
   constructor(props, context) {
